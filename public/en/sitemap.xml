@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://svitlichniy.me/posts/my-first-post/</loc>
+    <lastmod>2018-01-10T19:52:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://svitlichniy.me/authors/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -33,6 +38,12 @@
   </url>
   
   <url>
+    <loc>http://svitlichniy.me/posts/</loc>
+    <lastmod>2018-01-10T19:52:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://svitlichniy.me/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -49,6 +60,7 @@
   
   <url>
     <loc>http://svitlichniy.me/</loc>
+    <lastmod>2018-01-10T19:52:50+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

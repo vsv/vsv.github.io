@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vlad Svitlichniy&#39;s blog</title>
-    <link>http://svitlichniy.me/</link>
-    <description>Recent content on Vlad Svitlichniy&#39;s blog</description>
+    <title>Posts on Vlad Svitlichniy&#39;s blog</title>
+    <link>http://svitlichniy.me/posts/</link>
+    <description>Recent content in Posts on Vlad Svitlichniy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 10 Jan 2018 19:52:50 +0200</lastBuildDate>
     
-	<atom:link href="http://svitlichniy.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://svitlichniy.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

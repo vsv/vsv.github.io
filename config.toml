@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Come watch TV"
+description = "A Linux geek from Ukraine who lives in Poland"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -29,11 +29,11 @@ customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
-[params.copyright]
-prefix = ""
-holder = "Vlad Svitlichniy"
-startYear = "2018"
-suffix = ""
+# [params.copyright]
+#prefix = ""
+#holder = "Vlad Svitlichniy"
+#startYear = "2018"
+#suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
@@ -64,7 +64,7 @@ instagram = "pan_vladyk"
 linkedin = "vladsv"
 
 [params.social.config]
-platforms = ["github","instagram","email","linkedin"]
+platforms = ["email","linkedin","github","instagram"]
 
 [taxonomies]
 author = "authors"
