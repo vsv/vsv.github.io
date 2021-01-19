@@ -2,6 +2,11 @@
 base_url = "https://vsv.dev"
 theme = "anpu"
 
+taxonomies = [
+    { name = "categories" },
+    { name = "tags" },
+]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -15,3 +20,7 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+anpu_menu_links = [
+    { url = "$BASE_URL/about/", name = "About" },
+]
+
