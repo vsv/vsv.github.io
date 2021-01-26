@@ -1,4 +1,4 @@
-title = "Vlad Svitlichniy"
+title = "Vlad Svitlichniy's blog"
 description = "A Linux geek from Ukraine who lives in Poland"
 
 # The URL the site will be built for
@@ -28,4 +28,4 @@ highlight_code = false
 anpu_menu_links = [
     { url = "$BASE_URL/about/", name = "About" },
 ]
-
+anpu_author = "Vlad Svitlichniy"
