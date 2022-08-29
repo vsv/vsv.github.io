@@ -26,7 +26,7 @@ highlight_code = false
 [extra]
 # Put all your custom variables here
 anpu_menu_links = [
-    { url = "$BASE_URL/notresume/", name = "Not A Resume" },
+    { url = "$BASE_URL/resume/", name = "Resume" },
     { url = "$BASE_URL/about/", name = "About" },
 ]
 anpu_author = "Vlad Svitlychnyi"
