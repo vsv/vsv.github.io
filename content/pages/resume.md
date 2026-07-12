@@ -24,7 +24,7 @@ Designing and implementing a part of [Merkury](https://merkury.dentsu.com/) plat
 
 **Tech stack:** Java, Apache Ignite, AWS
 
-## 2012–2014: [Globallogic](https://www.globallogic.com/) + [Samsung](https://www.samsung.com)
+## 2012–2014: [Globallogic](https://www.globallogic.com/)
 
 **Senior Software Engineer**  
 *Location: Kharkiv, Ukraine*
