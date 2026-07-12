@@ -4,7 +4,7 @@ path = "about"
 template = "page.html"
 +++
 
-My name is Vlad, and this is going to be my personal blog about Linux, JVM, distributed computing, and the universe. I also live in Poland while originally being from Ukraine, so occasionally I will write about that too.
+My name is Vlad, I am Ukrainian+Polish, and my interests are Linux, Rust, JVM, distributed computing, and the universe.
 
 Please take a look at my [Resume](@/pages/resume.md) if you would like to know more about my background.
 
