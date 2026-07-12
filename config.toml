@@ -25,3 +25,8 @@ anpu_menu_links = [
     { url = "$BASE_URL/about/", name = "About" },
 ]
 anpu_author = "Vlad Svitlychnyi"
+
+[extra.anpu_donation]
+url = "https://savelife.in.ua/dronopad/main-eng.html"
+image = "images/dronefall.jpg"
+text = "Please donate to help protect Ukrainian civilians from Russian drones"
