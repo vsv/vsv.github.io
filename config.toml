@@ -2,7 +2,7 @@ title = "Vlad Svitlychnyi"
 description = "A Linux geek from Ukraine who lives in Poland"
 
 # The URL the site will be built for
-base_url = "https://vsv.dev"
+base_url = "https://vsv.to"
 theme = "anpu"
 
 taxonomies = [
