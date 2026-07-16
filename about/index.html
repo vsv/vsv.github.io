@@ -1,0 +1,28 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta content=True name=HandheldFriendly><meta content="width=device-width,initial-scale=1.0" name=viewport><meta content=no-referrer-when-downgrade name=referrer><meta content="light dark" name=color-scheme><meta name=darkreader-lock><title>About</title><meta content="A Linux geek with AdTech background" name=description><link href=https://vsv.to/main.css rel=stylesheet><body><a class=skip-main href=#main>Skip to content</a><div class=container><header><h1 class=site-header><a href=https://vsv.to>Vlad Svitlychnyi</a></h1><nav><a href=https://vsv.to/resume/>Resume</a><a class=active href=https://vsv.to/about/>About</a></nav></header><main id=main tabindex=-1><article class=post><header><h1>About</h1></header><div class=content><p>My name is Vlad, I am Ukrainian+Polish, and my interests are Linux, Rust, JVM, distributed computing, Cuban music, and the universe.<p>Please take a look at my <a href=https://vsv.to/resume/>Resume</a> if you would like to know more about my background.<p>Feel free to write me an e-mail (<a href=mailto:vlad@vsv.to>vlad@vsv.to</a>) or connect with me on <a href=https://www.linkedin.com/in/vladsv/ rel=external>LinkedIn</a>.</div><div class=article-info><div class=article-taxonomies></div></div></article></main><footer><div class=donation-banner><a href=https://savelife.in.ua/dronopad/main-eng.html rel=noopener target=_blank> <img alt="Please donate to help protect Ukrainian civilians from Russian drones" loading=lazy src=https://vsv.to/images/dronefall.jpg> <p>Please donate to help protect Ukrainian civilians from Russian drones</p> </a></div><p>© 2026 Vlad Svitlychnyi<br> Powered by <a href=https://getzola.org/ target=_blank>Zola</a>, Theme <a href=https://github.com/zbrox/anpu-zola-theme target=_blank>Anpu</a>.<p></footer></div><div class=dark-mode-buttons><button class=dark-mode-button id=dark-mode-on><img alt="Dark mode" aria-label="dark mode toggle" title="Dark mode" class=themed-icon height=24 src=https://vsv.to/dark_mode.svg width=24></button><button class=dark-mode-button id=dark-mode-off><img alt="Light mode" aria-label="light mode toggle" src="https://vsv.to/light_mode.svg " title="Light mode" class=themed-icon height=24 width=24></button></div><script>const cls = document.body.classList;
+  const getSessionTheme = sessionStorage.getItem("theme");
+  if (getSessionTheme === "dark") {
+    cls.toggle("dark-mode", true);
+  } else if (getSessionTheme === "light") {
+    cls.toggle("dark-mode", false);
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    cls.toggle("dark-mode", true);
+  }
+  document
+    .getElementById("dark-mode-on")
+    .addEventListener("click", function (e) {
+      cls.toggle("dark-mode", true);
+      sessionStorage.setItem("theme", "dark");
+    });
+  document
+    .getElementById("dark-mode-off")
+    .addEventListener("click", function (e) {
+      cls.toggle("dark-mode", false);
+      sessionStorage.setItem("theme", "light");
+    });
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", function (e) {
+      if (sessionStorage.getItem("theme") === null) {
+        cls.toggle("dark-mode", e.matches);
+      }
+    });</script><noscript><style>.dark-mode-buttons{display:none}</style></noscript>

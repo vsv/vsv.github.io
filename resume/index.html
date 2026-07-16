@@ -1,0 +1,28 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta content=True name=HandheldFriendly><meta content="width=device-width,initial-scale=1.0" name=viewport><meta content=no-referrer-when-downgrade name=referrer><meta content="light dark" name=color-scheme><meta name=darkreader-lock><title>Resume</title><meta content="A Linux geek with AdTech background" name=description><link href=https://vsv.to/main.css rel=stylesheet><body><a class=skip-main href=#main>Skip to content</a><div class=container><header><h1 class=site-header><a href=https://vsv.to>Vlad Svitlychnyi</a></h1><nav><a class=active href=https://vsv.to/resume/>Resume</a><a href=https://vsv.to/about/>About</a></nav></header><main id=main tabindex=-1><article class=post><header><h1>Resume</h1></header><div class=content><h2 id=2021-now-roqad>2021–now: <a href=https://www.roq.ad/ rel=external>Roqad</a></h2><p><strong>Senior Software Engineer + DevOps Team Lead</strong><br> <em>Location: remote in EU</em><p>Designing and implementing a significant part of Roqad probabilistic identity graph solution.<p>Leading the migration effort during the acquisition of <a href=https://zeotapdata.net/ rel=external>Zeotap Data</a> and replatforming to <a href=https://ocient.com/ rel=external>Ocient</a>.<p><strong>Tech stack:</strong> Scala, Spark, Akka, Python/Luigi, Rust, Kubernetes<h2 id=2014-2021-grid-dynamics-merkle>2014–2021: <a href=https://www.griddynamics.com/ rel=external>Grid Dynamics</a> + <a href=https://www.merkle.com/ rel=external>Merkle</a></h2><p><strong>Middle → Senior → Staff Software Engineer / Team Lead</strong><br> <em>Location: Kharkiv, Ukraine → Kraków, Poland</em><p>Designing and implementing a part of <a href=https://merkury.dentsu.com/ rel=external>Merkury</a> platform for a US-based performance marketing agency.<p><strong>Tech stack:</strong> Java, Apache Ignite, AWS<h2 id=2012-2014-globallogic>2012–2014: <a href=https://www.globallogic.com/ rel=external>Globallogic</a></h2><p><strong>Senior Software Engineer</strong><br> <em>Location: Kharkiv, Ukraine</em><p>Implementing a mobile graphics component library for a world-leading phone manufacturing company.<p><strong>Tech stack:</strong> C, C++, Android NDK, Tizen<h2 id=2006-2012-aldec>2006–2012: <a href=https://www.aldec.com rel=external>Aldec</a></h2><p><strong>Junior → Middle → Senior Software Engineer</strong><br> <em>Location: Kharkiv, Ukraine</em><p>Working on a Verilog/VHDL static design verification tool <a href=https://www.aldec.com/en/products/functional_verification/alint-pro rel=external>ALINT</a> as a part of a bigger electronic design automation platform <a href=https://www.aldec.com/en/products/functional_verification/riviera-pro rel=external>Riviera</a>.<p><strong>Tech stack:</strong> C++, Qt, Boost<h2 id=2005-2010-university-of-radioelectronics-kharkiv>2005–2010: <a href=https://nure.ua/en/ rel=external>University of Radioelectronics</a>, Kharkiv</h2><p>BSc, Computer Engineering; major: Systems Programming</div><div class=article-info><div class=article-taxonomies></div></div></article></main><footer><div class=donation-banner><a href=https://savelife.in.ua/dronopad/main-eng.html rel=noopener target=_blank> <img alt="Please donate to help protect Ukrainian civilians from Russian drones" loading=lazy src=https://vsv.to/images/dronefall.jpg> <p>Please donate to help protect Ukrainian civilians from Russian drones</p> </a></div><p>© 2026 Vlad Svitlychnyi<br> Powered by <a href=https://getzola.org/ target=_blank>Zola</a>, Theme <a href=https://github.com/zbrox/anpu-zola-theme target=_blank>Anpu</a>.<p></footer></div><div class=dark-mode-buttons><button class=dark-mode-button id=dark-mode-on><img alt="Dark mode" aria-label="dark mode toggle" title="Dark mode" class=themed-icon height=24 src=https://vsv.to/dark_mode.svg width=24></button><button class=dark-mode-button id=dark-mode-off><img alt="Light mode" aria-label="light mode toggle" src="https://vsv.to/light_mode.svg " title="Light mode" class=themed-icon height=24 width=24></button></div><script>const cls = document.body.classList;
+  const getSessionTheme = sessionStorage.getItem("theme");
+  if (getSessionTheme === "dark") {
+    cls.toggle("dark-mode", true);
+  } else if (getSessionTheme === "light") {
+    cls.toggle("dark-mode", false);
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    cls.toggle("dark-mode", true);
+  }
+  document
+    .getElementById("dark-mode-on")
+    .addEventListener("click", function (e) {
+      cls.toggle("dark-mode", true);
+      sessionStorage.setItem("theme", "dark");
+    });
+  document
+    .getElementById("dark-mode-off")
+    .addEventListener("click", function (e) {
+      cls.toggle("dark-mode", false);
+      sessionStorage.setItem("theme", "light");
+    });
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", function (e) {
+      if (sessionStorage.getItem("theme") === null) {
+        cls.toggle("dark-mode", e.matches);
+      }
+    });</script><noscript><style>.dark-mode-buttons{display:none}</style></noscript>
