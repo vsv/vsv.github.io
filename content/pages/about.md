@@ -4,7 +4,7 @@ path = "about"
 template = "page.html"
 +++
 
-My name is Vlad, I am Ukrainian+Polish, and my interests are Linux, Rust, JVM, distributed computing, and the universe.
+My name is Vlad, I am Ukrainian+Polish, and my interests are Linux, Rust, JVM, distributed computing, Cuban music, and the universe.
 
 Please take a look at my [Resume](@/pages/resume.md) if you would like to know more about my background.
 
